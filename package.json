@@ -1,0 +1,31 @@
+{
+  "name": "safedrop-hashcash",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js --bail --timeout 10000 && webpack -d && chrome http://localhost:5000/test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safezero/safedrop-hashcash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safezero/safedrop-hashcash/issues"
+  },
+  "homepage": "https://github.com/safezero/safedrop-hashcash#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "bn.js": "^4.11.8",
+    "chai": "^4.1.2",
+    "defunction": "^4.0.4",
+    "mocha": "^4.1.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "promise-waterfall": "^0.1.0",
+    "webpack": "^3.10.0"
+  }
+}
